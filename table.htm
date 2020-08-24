@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <ul>
+        <li>
+            <a href="/">Home</a>
+        </li>
+        <li>
+            <a href="/index2.html">2.oldal</a>
+        </li>
+        <li>
+            <a href="/table.htm">Táblázat</a>
+        </li>
+    </ul>
+    <h1>Ez egy táblázat</h1>
+
+
+    <table>
+        <caption>Opening hours/cím</caption>
+        <thead>
+            <tr>
+                <th>Day/fejléc</th>
+                <th>Open/fejléc</th>
+                <th>Close/fejléc</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Monday-Friday</td>
+                <td>09:00</td>
+                <td>21:00</td>
+            </tr>
+            <tr>
+                <td>Saturday</td>
+                <td>09:00</td>
+                <td>24:00</td>
+            </tr>
+            <tr>
+                <td>Sunday</td>
+                <td>09:00</td>
+                <td>12:00</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>&copy;2020</td>
+            </tr>
+        </tfoot>
+    </table>
+
+    <table>
+        <caption>Opening hours/cím</caption>
+        <thead>
+            <tr>
+                <th>Day/fejléc</th>
+                <th>Open/fejléc</th>
+                <th>Close/fejléc</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Monday-Friday</td>
+                <td rowspan=2>09:00</td>
+                <td>21:00</td>
+            </tr>
+            <tr>
+                <td>Saturday</td>
+                
+                <td>24:00</td>
+            </tr>
+            <tr>
+                <td>Sunday</td>
+                <td colspan=2>Closed</td>
+                
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan=3>&copy;2020</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+
+</html>
